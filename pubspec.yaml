@@ -1,0 +1,25 @@
+name: ironapp_delivery
+description: IronApp Rider Delivery App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Supabase: database, auth, realtime
+  supabase_flutter: ^2.3.0
+
+  # Open Google Maps and dial phone numbers
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
